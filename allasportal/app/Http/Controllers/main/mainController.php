@@ -1,11 +1,21 @@
 <?php
 
-namespace App\Http\Controllers\main;
+namespace App\Http\Controllers\Main;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\JobsModel;
 
-class mainController extends Controller
+class MainController extends Controller
 {
-    //
+    public function main()
+    {
+        return view('welcome');
+    }
+
+    public function jobs()
+    {
+        $jobs = JobsModel::all();
+        return view('job.jobs', ['records' => $jobs]);
+    }
 }
