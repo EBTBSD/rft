@@ -1,0 +1,151 @@
+html{
+    background-attachment: fixed;
+    background-image: url('/images/background/bg_img.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    color: beige;
+    font-family:'Courier New', Courier, monospace;
+}
+p{
+    text-align: justify;
+    font-size: medium;
+}
+
+.body_div{
+    width: 80%;
+    margin: 5% auto;
+    background-color: rgba(38, 38, 38, 0.75);
+    padding: 2%;
+}
+
+
+
+.dropbtn {
+    background-color: transparent;
+    color: beige;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border: 0px solid red;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgba(38, 38, 38, 0.75);
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    color: #0396cb;
+  }
+
+
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+  }
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(38, 38, 38, 0.75);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+a:hover {color: #0396cb;}
+.show {display:block;}
+
+a{
+    text-decoration: none;
+    color: beige;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+table{
+    display: block;
+    position: fixed;
+    width: 80%;
+    margin: -4% auto;
+    text-align: center;
+}
+.table_link{
+}
+.tr_link{
+    border: 1px solid green;
+}
+
+.td_link{
+    margin: auto;
+    width: 20%;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.main_jobs{
+    margin: auto;
+    display:block;
+    left: 50%;
+    text-align: center;
+}
+
+.jobs_desc{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 75px;
+}
+
+.jobs_div{
+    display: inline-block;
+    width: 300px;
+    min-height: 250px;
+    max-height: 250px;
+    border: 0px solid red;
+    vertical-align: top;
+    padding: 0%;
+}
+
+.jobs_btn{
+    width: 75%;
+    background-color: beige;
+    color: rgba(38, 38, 38, 0.75);
+    padding: 3px;
+}
+
+.newjob_textarea{
+    width: 500px;
+    height: 200px;
+    resize: none;
+    background-color: beige;
+    color: rgba(38, 38, 38, 0.75);
+    margin-bottom: 2%;
+}
+.newjob_input{
+    width: 500px;
+    background-color: beige;
+    color: rgba(38, 38, 38, 0.75);
+    margin-bottom: 2%;
+}
+
+.newjob_btn{
+    width: 500px;
+    background-color: beige;
+    color: rgba(38, 38, 38, 0.75);
+
+}
+
+.newjob_btn:hover{
+        background-color:rgba(38, 38, 38, 0.75);
+        color: beige;
+}
+
+
+
